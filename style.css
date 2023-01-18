@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Kavoon', cursive;
     margin: 0;
     padding: 0;
   }
@@ -26,7 +26,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: grid;
   }
   
   nav li {
