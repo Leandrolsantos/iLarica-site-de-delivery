@@ -9,6 +9,26 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  .imagens {
+    padding: 10px;
+  }
+  
+  .pizza {
+    width: 300px;
+  }
+
+  .burguer {
+    width: 510px;
+  }
+
+  .porcoes {
+    width: 300px;
+  }
+
+  .fundo {
+    width: 100%;
+  }
   
   h1 {
     margin: 0;
@@ -40,6 +60,10 @@ body {
   
   main {
     padding: 20px;
+  }
+
+  .menu {
+    width: 100%;
   }
   
   section {
