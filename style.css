@@ -2,6 +2,8 @@ body {
     font-family: 'Kavoon', cursive;
     margin: 0;
     padding: 0;
+    background: #ff6f01 url("fundo.jpg") no-repeat  ;
+    background-size: cover;
   }
   
   header {
@@ -12,7 +14,7 @@ body {
 
   .imagens {
     padding: 10px;
-    margin:auto;
+    margin: 0 0 0 0;
   }
   
   .pizza {
@@ -29,6 +31,7 @@ body {
 
   .fundo {
     width: 100%;
+    background-size: cover;
   }
   
   h1 {
@@ -63,16 +66,59 @@ body {
     padding: 20px;
   }
 
-  .menu {
-    width: 100%;
+  form section {
+    color: #f2f2f2;
   }
+
+  .provisorio {
+    display: inline-block;
+    margin: 220px auto;
+  }
+
+  .divpizza {
+    border: groove;
+    border-width: 10px;
+    border-color: darkorange;
+    position: absolute;
+    margin: 0px 0px 0px 125px;
+    padding: 0px 5px 0px 5px;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .divburguer {
+    border: groove;
+    border-width: 10px;
+    border-color: darkorange;;
+    position: absolute;
+    margin: 0px 0px 0px 532px;
+    padding: 0px 5px 0px 5px;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .divporcoes {
+    border: groove;
+    border-width: 10px;
+    border-color: darkorange;
+    position: absolute;
+    margin: 0px 0px 0px 1022px;
+    padding: 0px 5px 0px 5px;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  
   
   section {
     margin-bottom: 20px;
   }
   
   footer {
-    background-color: #f2f2f2;
+    background:linear-gradient(black, darkorange, darkred, black);
     padding: 20px;
     text-align: center;
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
   }
