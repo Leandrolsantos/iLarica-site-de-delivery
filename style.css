@@ -1,7 +1,8 @@
 body {
-    font-family: 'Kavoon', cursive;
-    margin: 0;
-    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background: #ff6f01 url("fundo.jpg") no-repeat  ;
     background-size: cover;
   }
@@ -12,9 +13,11 @@ body {
     text-align: center;
   }
 
-  .imagens {
+  .imagem-e-texto {
     padding: 10px;
     margin: 0 0 0 0;
+    font-weight: bold;
+    font-size: 30px;
   }
   
   .pizza {
@@ -50,7 +53,10 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
   }
   
   nav li {
@@ -102,14 +108,20 @@ body {
     border-width: 10px;
     border-color: darkorange;
     position: absolute;
-    margin: 0px 0px 0px 1022px;
+    margin: 0px 0px 0px 1024px;
     padding: 0px 5px 0px 5px;
     font-size: 23px;
     text-align: center;
   }
 
-  
-  
+  .contato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+  }
+
   section {
     margin-bottom: 20px;
   }
