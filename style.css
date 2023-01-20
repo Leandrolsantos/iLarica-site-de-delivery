@@ -1,5 +1,5 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -51,16 +51,17 @@ body {
   
   nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: -7px 0px 0px 525px;
+    padding: 0 auto;
     display: flex;
     flex-direction: row;
     width: 100%;
-    text-align: center;
+    
   }
   
   nav li {
     margin-right: 20px;
+    margin: 0 0 0 0;
   }
   
   nav a {
@@ -76,15 +77,10 @@ body {
     color: #f2f2f2;
   }
 
-  .provisorio {
-    display: inline-block;
-    margin: 220px auto;
-  }
-
   .divpizza {
-    border: groove;
-    border-width: 10px;
-    border-color: darkorange;
+    border: dashed;
+    border-width: 8px;
+    border-color: white;
     position: absolute;
     margin: 0px 0px 0px 125px;
     padding: 0px 5px 0px 5px;
@@ -93,9 +89,9 @@ body {
   }
 
   .divburguer {
-    border: groove;
-    border-width: 10px;
-    border-color: darkorange;;
+    border: dashed;
+    border-width: 8px;
+    border-color: white;
     position: absolute;
     margin: 0px 0px 0px 532px;
     padding: 0px 5px 0px 5px;
@@ -104,9 +100,9 @@ body {
   }
 
   .divporcoes {
-    border: groove;
-    border-width: 10px;
-    border-color: darkorange;
+    border: dashed;
+    border-width: 8px;
+    border-color: white;
     position: absolute;
     margin: 0px 0px 0px 1024px;
     padding: 0px 5px 0px 5px;
@@ -120,6 +116,25 @@ body {
     width: 100%;
     font-size: 22px;
     text-align: center;
+    margin: 0 0 0 0;
+  }
+
+  .carrinho {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 0 0 0;
   }
 
   section {
