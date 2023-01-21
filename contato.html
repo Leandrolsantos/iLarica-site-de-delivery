@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLarica - Contato</title>
+    
+    <link rel="stylesheet" href="style-contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<div class="burguer">
+				<h1><img src="burguerbranco.png" alt="Hamburguer em preto e branco"></h1>
+            
+                <div class="logo-ilarica">       
+                <p>iLarica - Delivery</p>
+			</div> 	
+                <nav class="home">
+					<ul>
+						<li><a href="index.html" class="ocultar-link">Home</a></li>				
+					</ul>
+				</nav>
+            </div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome completo</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="digiteaquiseuemail@iLarica.com.br">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(Xx) XxXxX-XxXx">
+
+				<fieldset>
+					<legend>Como deseja que entremos em contato ?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Marque aqui se deseja receber novidades e promoções</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+		</main>
+
+		<footer>
+			<h1>iLarica - Delivery</h1>
+			<p class="copyright">&copy; Copyright iLarica - 2023</p>
+		</footer>
+	</body>
+</html>

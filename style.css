@@ -19,7 +19,7 @@ body {
     font-weight: bold;
     font-size: 30px;
   }
-  
+
   .pizza {
     width: 300px;
   }
@@ -42,11 +42,15 @@ body {
   }
   
   nav {
-    background-color: #333;
-    color: #fff;
+    background-color: goldenrod;
+    color: whitesmoke;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    padding: 11px 0px 10px 7px;
+    margin: 3px 0px 160px -2px;
+  }
+
+  .nav-sobre-contato-carrinho {
+    margin: 0 0 0 300px;
   }
   
   nav ul {
@@ -56,12 +60,12 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+    font-size: 22px;
     
   }
   
   nav li {
-    margin-right: 20px;
-    margin: 0 0 0 0;
+    margin: 0px 212px -5px 0px;
   }
   
   nav a {
@@ -70,10 +74,10 @@ body {
   }
   
   main {
-    padding: 20px;
+    padding: auto;
   }
 
-  form section {
+  section {
     color: #f2f2f2;
   }
 
@@ -86,6 +90,7 @@ body {
     padding: 0px 5px 0px 5px;
     font-size: 23px;
     text-align: center;
+    transition: 1.2s;
   }
 
   .divburguer {
@@ -97,6 +102,7 @@ body {
     padding: 0px 5px 0px 5px;
     font-size: 23px;
     text-align: center;
+    transition: 1.2s;
   }
 
   .divporcoes {
@@ -108,45 +114,63 @@ body {
     padding: 0px 5px 0px 5px;
     font-size: 23px;
     text-align: center;
+    transition: 1.2s;
   }
 
-  .contato {
+  .divcontato {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: -42px 447px 263px 406px;
+    padding: 309px 0px 0px 0px;
+    font-size: 22px;
+    text-align: center;
+    transition: 1.2s;
+  }
+
+  .divpizza:hover {
+    transform: scale(1.2);
+  }
+
+  .divburguer:hover {
+    transform: scale(1.2);
+  }
+
+  .divporcoes:hover {
+    transform: scale(1.2);
+  }
+
+  .divcontato:hover {
+    transform: scale(1.2);
+  }
+
+  .divsobre {
     display: flex;
     flex-direction: column;
     width: 100%;
     font-size: 22px;
     text-align: center;
-    margin: 0 0 0 0;
-  }
-
-  .carrinho {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-size: 22px;
-    text-align: center;
-    margin: 0 0 240px 0;
-    padding: 227px 0px 0px 0px;
-  }
-
-  .sobre {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-size: 22px;
-    text-align: center;
-    margin: 0 0 0 0;
-  }
-
-  section {
-    margin-bottom: 20px;
+    margin: 0 0 323px 0;
   }
   
   footer {
-    background:linear-gradient(black, darkorange, darkred, black);
+    background: linear-gradient(red, black);
     padding: 20px;
     text-align: center;
     color: white;
     font-size: 22px;
     text-decoration: underline;
   }
+
+  @media screen and (max-width: 480px) {
+    .principal, .input-padrao, .fundodaopcao, .medidor, .enviar {
+      width: auto;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+  }  

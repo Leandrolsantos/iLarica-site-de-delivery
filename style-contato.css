@@ -1,0 +1,80 @@
+* {
+    margin: 0 auto;
+    padding: 3px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-ilarica {
+    font-size: 60px;
+    text-align: center;
+    padding: 0 0 40px 0;
+    margin: -85px 0 -22px 0;
+}
+
+nav {
+    text-align: center;
+    text
+}
+
+.ocultar-link:link {
+    color: black;
+    text-decoration: none;
+}
+
+.ocultar-link:visited {
+    color: black;
+    text-decoration: none; 
+}
+
+.home {
+    font-size: 30px;
+    transition: 1.3s;
+    border: dashed;
+    border-width: 6px;
+    border-color: gray;
+    margin: 0 auto;   
+}
+
+li {
+    list-style: none;
+}
+
+.home:hover {
+    transform:scale(1.1);
+}
+
+
+main {
+   padding: 0 0 100px 0;
+   margin: 0 0 34px 0; 
+}
+
+form {
+    text-align: center;
+    padding: 56px 0px 60px 0;
+    margin: 10px;
+}
+
+fieldset {
+    padding: -20px;
+
+}
+
+@media screen and (max-width: 480px) {
+	.principal, .input-padrao, .fundodaopcao, .medidor, .enviar {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+}  
