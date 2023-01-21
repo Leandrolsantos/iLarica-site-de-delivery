@@ -1,8 +1,12 @@
+* {
+    margin: 0 auto;
+    padding: 5px;
+}
+
 body {
     font-family: 'Cabin Sketch', cursive;
     display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
+    flex-direction: column;
     background: #ff6f01 url("fundo.jpg") no-repeat  ;
     background-size: cover;
     color: white;
@@ -11,22 +15,24 @@ body {
   }
 
   .home {
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
     transition: 1.3s;
     border: dashed;
     border-width: 6px;
     border-color: gray;
-    margin: 0px 0px 0px 652px;
-    padding: 0px 31px 1px 0px;
-    width: 10%;  
+    margin: 20px auto;
+    padding: 0 auto;
+    width: 30%;  
     background-color: white; 
     text-align: center;
 }
 
 .divsobre {
-    border: dashed;
-    border-width: 6px;
-    border-color: rgb(255, 255, 255); 
+    font-size: 28px;
+    margin: 138px auto;
+    padding: 30x auto;
 }
 
 .logo-ilarica {

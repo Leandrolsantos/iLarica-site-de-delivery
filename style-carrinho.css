@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    padding: 3px;
+    padding: 0 auto;
     font-family: 'Cabin Sketch', cursive;
 }
 
@@ -10,12 +10,14 @@ body {
 }
 
 .home {
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
     transition: 1.3s;
     border: dashed;
     border-width: 6px;
     border-color: gray;
-    margin: 0 auto;   
+    margin: 70px 0 0 0;   
 }
 
 .logo-ilarica {
@@ -23,6 +25,11 @@ body {
     text-align: center;
     padding: 0 0 40px 0;
     margin: -85px 0 -22px 0;
+}
+
+.burguer {
+  display: flex;
+  flex-direction: column;
 }
 
 .ocultar-link:link {
@@ -42,7 +49,8 @@ li {
 
 .shopping-cart {
     width: 100%;
-    margin: 0 auto;
+    margin: 60px auto;
+    text-align: center;
     background-color: #d3d3d3;
   }
   
@@ -53,11 +61,12 @@ li {
   .cart-items {
     display: flex;
     flex-wrap: wrap;
+    width: 50%;
   }
   
   .cart-item {
-    width: 30%;
-    margin: 10px;
+    width: 40%;
+    margin: 12px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     box-shadow: 0px 0px 5px 0px #ccc;
@@ -75,9 +84,10 @@ li {
     background-color: #ff0000;
     color: #fff;
     border: none;
+    margin: 21px auto;
     padding: 5px 10px;
     border-radius: 5px;
-    float: right;
+    float: center;
   }
   
   .cart-total {
@@ -89,6 +99,7 @@ li {
     background-color: #00ff00;
     color: #fff;
     border: none;
+    margin: 18px auto;
     padding: 10px 20px;
     border-radius: 5px;
   }

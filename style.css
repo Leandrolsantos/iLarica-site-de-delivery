@@ -52,7 +52,31 @@ body {
   .nav-sobre-contato-carrinho {
     margin: 0 0 0 300px;
   }
+
+  .nav-sobre{
+    transition: 1.2s;
+  }
   
+  .nav-sobre:hover {
+    transform: scale(1.2);
+  }
+
+  .nav-carrinho {
+    transition: 1.2s;
+  }
+
+  .nav-carrinho:hover {
+    transform: scale(1.2);
+  }
+
+  .nav-contato {
+    transition: 1.2s;
+  }
+
+  .nav-contato:hover {
+    transform: scale(1.2);
+  }
+ 
   nav ul {
     list-style: none;
     margin: -7px 0px 0px 525px;
@@ -72,13 +96,18 @@ body {
     color: #fff;
     text-decoration: none;
   }
-  
+ 
   main {
     padding: auto;
   }
 
   section {
     color: #f2f2f2;
+  }
+
+  div {
+    display: flex;
+    position: relative;
   }
 
   .divpizza {
@@ -98,7 +127,7 @@ body {
     border-width: 8px;
     border-color: white;
     position: absolute;
-    margin: 0px 0px 0px 532px;
+    margin: 0px 0px 0px 574px;
     padding: 0px 5px 0px 5px;
     font-size: 23px;
     text-align: center;
@@ -110,7 +139,7 @@ body {
     border-width: 8px;
     border-color: white;
     position: absolute;
-    margin: 0px 0px 0px 1024px;
+    margin: 0px 0px 0px 1093px;
     padding: 0px 5px 0px 5px;
     font-size: 23px;
     text-align: center;
@@ -119,9 +148,12 @@ body {
 
   .divcontato {
     display: flex;
+    border: dashed;
+    border-width: 8px;
+    border-color: white;
     flex-direction: column-reverse;
-    margin: -42px 447px 263px 406px;
-    padding: 309px 0px 0px 0px;
+    margin: 235px 0px 57px 603px;
+    padding: 15px 15px 15px 15px;
     font-size: 22px;
     text-align: center;
     transition: 1.2s;

@@ -18,7 +18,6 @@ body {
 
 nav {
     text-align: center;
-    text
 }
 
 .ocultar-link:link {
@@ -60,9 +59,41 @@ form {
     margin: 10px;
 }
 
-fieldset {
-    padding: -20px;
+.dados-clientes {
+    display: flex;
+    flex-direction: column;
+}
 
+.div-nome-sobrenome {
+    margin: 10px;
+    padding: 0px 10px 10px 0px;
+}
+
+.div-email {
+    margin: 10px;
+    padding: 0px 10px 10px 0px;
+}
+
+.div-telefone {
+    margin: 10px;
+    padding: 0px 10px 10px 0px;
+}
+
+fieldset {
+    display: flex;
+    padding: -20px 0 0 0;
+    margin: 50px 413px 50px 413px;
+}
+
+.enviar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 680px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 480px) {
