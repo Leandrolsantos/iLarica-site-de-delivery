@@ -8,5 +8,3 @@ Desenvolver um site buscador de delivery regional onde compara os melhores preç
 #### Ferramentas Utilizadas
  - HTML
  - CSS
-
- 
