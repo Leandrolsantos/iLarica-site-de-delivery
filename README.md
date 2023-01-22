@@ -1,4 +1,6 @@
 # iLarica - Site de busca de Delivery
+http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge
+
 ![](./gif-do-projeto/ilarica.gif)
 ## Descrição
 Site que busca os melhores estabelecimentos comerciais que oferecem entrega de comida.
