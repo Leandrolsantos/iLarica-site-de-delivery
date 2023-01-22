@@ -11,13 +11,21 @@ body {
 
 .home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    position: relative;
+    left: 680px;
     font-size: 30px;
     transition: 1.3s;
     border: dashed;
     border-width: 6px;
     border-color: gray;
-    margin: 70px 0 0 0;   
+    margin: 70px 1370px 72px -1px;
+    padding: 0px 30px 0px 0px;
+    transition: 1.2s;   
+}
+
+.home:hover {
+  transform:scale(1.2);
 }
 
 .logo-ilarica {
@@ -74,20 +82,27 @@ li {
   
   .cart-item img {
     width: 100%;
+    padding: 10px 10px 10px 0px;
   }
   
   .item-info {
-    margin-top: 20px;
+    margin: 20px 0px 20px 0px;
+    padding: 8px 0px 8px 0px;
   }
   
   .remove-item {
     background-color: #ff0000;
     color: #fff;
     border: none;
-    margin: 21px auto;
+    margin: 35px auto;
     padding: 5px 10px;
     border-radius: 5px;
     float: center;
+    transition: 1.2s;
+  }
+
+  .remove-item:hover {
+    transform:scale(1.2);
   }
   
   .cart-total {
@@ -102,6 +117,11 @@ li {
     margin: 18px auto;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: 1.2s;
+  }
+
+  .checkout-btn:hover {
+    transform:scale(1.2);
   }
 
   @media screen and (max-width: 480px) {

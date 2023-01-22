@@ -1,4 +1,5 @@
 # iLarica - Site de busca de Delivery
+![](./gif-do-projeto/iLarica - Delivery.gif)
 ## Descrição
 Site que busca os melhores estabelecimentos comerciais que oferecem entrega de comida.
 ### Desafios

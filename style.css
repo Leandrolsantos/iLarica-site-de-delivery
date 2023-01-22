@@ -42,7 +42,7 @@ body {
   }
   
   nav {
-    background-color: goldenrod;
+    background: linear-gradient(goldenrod, red, black);
     color: whitesmoke;
     display: flex;
     padding: 11px 0px 10px 7px;
@@ -89,7 +89,7 @@ body {
   }
   
   nav li {
-    margin: 0px 212px -5px 0px;
+    margin: 0px 212px 8px 0px;
   }
   
   nav a {
@@ -185,7 +185,7 @@ body {
   }
   
   footer {
-    background: linear-gradient(red, black);
+    background: linear-gradient(goldenrod, red, black);
     padding: 20px;
     text-align: center;
     color: white;

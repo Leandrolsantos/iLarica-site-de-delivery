@@ -62,21 +62,32 @@ form {
 .dados-clientes {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.div-nome-sobrenome {
-    margin: 10px;
-    padding: 0px 10px 10px 0px;
+#nomesobrenome {
+    margin: 10px 0 15px;
+    padding: 10px 10px 10px 0px;
+    width: 100%;
+    text-align: center;
 }
 
-.div-email {
-    margin: 10px;
-    padding: 0px 10px 10px 0px;
+#email {
+    margin: 10px 0 15px;
+    padding: 10px 10px 10px 0px;
+    width: 100%;
+    text-align: center;
 }
 
-.div-telefone {
-    margin: 10px;
-    padding: 0px 10px 10px 0px;
+#telefone {
+    margin: 10px 0 15px;
+    padding: 10px 10px 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.input-padrao {
+    width: 40%;
 }
 
 fieldset {
