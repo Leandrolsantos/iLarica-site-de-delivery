@@ -3,6 +3,9 @@
 </p>
 
 ![](./gif-do-projeto/ilarica.gif)
+
+## Link do projeto
+https://ilaricadelivery.netlify.app
 ## Descrição
 Site que busca os melhores estabelecimentos comerciais que oferecem entrega de comida.
 ### Desafios
