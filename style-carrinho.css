@@ -68,6 +68,8 @@ li {
   
   .cart-items {
     display: flex;
+    border:groove;
+    border-color: black;   
     flex-wrap: wrap;
     width: 50%;
   }

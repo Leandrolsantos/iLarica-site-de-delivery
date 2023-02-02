@@ -1,6 +1,7 @@
 body {
     font-family: 'Cabin Sketch', cursive;
     display: flex;
+    justify-items: center;
     flex-direction: column;
     width: 100%;
     background: #ff6f01 url("fundo.jpg") no-repeat  ;
